@@ -1,0 +1,100 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(48, 48, 48);
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 5em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: auto;
+    width: 700px;
+    padding: 0px;
+}
+
+.recipe {
+    list-style: none;
+    background-color: pink;
+    text-align: center;
+    text-indent: 0px;
+    padding: 30px 10px ;
+    
+    
+}
+
+.recipe > a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+
+
+body {
+    background-color: lightblue;
+}
+
+
+
+ol.content > li, .subhead, .recipe-title {
+    text-transform: uppercase;
+}
+
+
+.subhead {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.recipe-title {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+}
+
+
+.content {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul.content {
+   padding-left: 40px; 
+}
+
+ol.content > li {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+ol.content > p {
+    margin-bottom: 20px;
+}
+
+img.recipe-pic, a.content {
+    display: block;
+}
+
+img.recipe-pic {
+    margin: auto;
+    height: 50vh;
+    width: 600px;
+}
+
